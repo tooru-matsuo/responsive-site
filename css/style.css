@@ -110,17 +110,41 @@ section {
 .button-mail {
   margin: auto;
   text-align: center;
-  padding: 5px 0;
-  width: 180px;
+  background: #C7243A;
+  /*
+            border: 1px solid #DDD;
+            border-radius: 8px;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+  ----*/
   display: block;
-  color: #FFF;
+  color: ＃CB1B45;
   font-weight: bold;
-  background-color: #009250;
+  background-color: #14c0c9;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  font-size: 1rem; }
+  color: #111;
+  width: 180px;
+  padding: 5px 0; }
 
+/*
+
+        .button-mail {
+          margin: auto;
+          text-align: center;
+          padding: 5px 0;
+          width: 180px;
+          display: block;
+          color: ＃CB1B45;
+          font-weight: bold;
+          background-color: $fontColor;
+          @extend .abel;
+          @extend .uppercase;
+          @include border-radius(4px);
+          font-size: 8.5rem;
+        }
+------*/
 @media (min-width: 768px) {
   header .header-box {
     background-image: url("../images/img_top_image.jpg");
