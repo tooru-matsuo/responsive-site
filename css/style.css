@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+a {
+  color: #009250;
+  text-decoration: none; }
+  a:visited {
+    color: #005f34; }
+  a:hover {
+    color: #005f34; }
+  a:active {
+    color: #00ac5e; }
+  a:hover {
+    text-decoration: underline; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container, #skills i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Font
+------------------------------------------------------------*/
+.abel, section h2, #skills h3, .button-mail {
+  font-family: 'Abel', sans-serif; }
+
+.uppercase, section h2, #skills h3, .button-mail {
+  text-transform: uppercase; }
+
+/* Header
+------------------------------------------------------------*/
+header .header-box {
+  background-image: url("../images/img_top_image.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 10px 0; }
+  section .container {
+    width: 90%; }
+  section h2 {
+    font-size: 3.2rem; }
+
+#skills {
+  background-color: #C7243A; }
+  #skills .container {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  #skills h2 {
+    color: #fdfcf6;
+    margin-bottom: 60px; }
+  #skills .skill-box {
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fdfcf6;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  #skills i {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    background-color: #009250;
+    font-size: 4.5rem;
+    color: #FFF;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  #skills h3 {
+    color: #009250;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    font-weight: bold; }
+
+.button-mail {
+  margin: auto;
+  text-align: center;
+  padding: 5px 0;
+  width: 180px;
+  display: block;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #009250;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 1rem; }
+
+@media (min-width: 768px) {
+  header .header-box {
+    background-image: url("../images/img_top_image.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center; }
+
+  #skills .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #skills .skill-box {
+    margin: 0 10px; } }
+
+/*# sourceMappingURL=style.css.map */
